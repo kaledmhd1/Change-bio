@@ -73,8 +73,3 @@ def update_bio(token, bio):
 
     json_str = json.dumps(response_data, ensure_ascii=False)
     return Response(json_str, content_type='application/json; charset=utf-8')
-
-# ... باقي الكود كما هو ...
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
